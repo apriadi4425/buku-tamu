@@ -1,0 +1,29 @@
+p.text4{
+	font-size: 14px;
+	font-family: 'Domine', serif;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.stripe1 {
+	background-color: #E8E8E8;
+}
+.stripe2 {
+	background-color: #c4ffd4;
+	border-bottom: solid #c0c0c0;
+}
+table.dataTable thead tr {
+	background-color :#7a8793;
+}table.dataTable tfoot tr {
+	 background-color :#7a8793;
+ }
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color: #7a8793;
+}
+th.dt-center, td.dt-center { text-align: center; }
+.table-bordered > tbody > tr:first-child > td[class*="sorting_1"]{
+	border-top: 2px solid cornflowerblue !important;
+}
+
+.table-bordered >tbody > tr:last-child > td[class*="sorting_1"]{
+	border-bottom: 2px solid cornflowerblue !important;
+}

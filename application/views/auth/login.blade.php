@@ -1,0 +1,73 @@
+@extends('auth/root')
+@section('bantu')
+	<link rel="stylesheet" href="{{base_url('assets/dist/css/adminlte.min.css')}}">
+	<link rel="stylesheet" href="{{base_url('assets/dist/css/custom.css')}}">
+@endsection
+@section('content')
+	<div class="login-logo">
+		<a href="../../index2.html"><b>{{$app}}</b> {{$instansi_pendek}}</a>
+	</div>
+	<!-- /.login-logo -->
+	<div class="card">
+		<div class="card-body login-card-body">
+			<p class="login-box-msg">{{$user}}</p>
+
+			<form id="login_form" class="form"  method="post" enctype="multipart/form-data">
+				<div class="input-group mb-3">
+					<input type="text" name="username" id="username" class="form-control" placeholder="Username">
+					<div class="input-group-append">
+						<div class="input-group-text">
+							<span class="fas fa-envelope"></span>
+						</div>
+					</div>
+				</div>
+				<div class="input-group mb-3">
+					<input type="password" name="password" id="password" class="form-control" placeholder="Password">
+					<div class="input-group-append">
+						<div class="input-group-text">
+							<span class="fas fa-lock"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- /.col -->
+					<div class="col-12">
+						<button class="btn btn-primary btn-block btn-flat">Log-In</button>
+					</div>
+					<!-- /.col -->
+				</div>
+			</form>
+		</div>
+		<!-- /.login-card-body -->
+	</div>
+	</div>
+	<!-- /.login-box -->
+
+@endsection
+
+@section('script')
+	<script type="text/javascript">
+        $(document).ready(function(){
+            $("form#login_form").submit(function(e) {
+                e.preventDefault();
+                var formData = new FormData(this);
+                $.ajax({
+                    url: "{{base_url('login/validation_credential')}}",
+                    type: 'POST',
+                    dataType: 'JSON',
+                    data: formData,
+                    success: function (data) {
+                        if(data == 'error1'){
+                            alert('Username atau Password Salah')
+                        }if(data == 'sukses'){
+                            $(location).attr('href', '{{base_url('beranda')}}');
+                        }
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+            });
+        });
+	</script>
+@endsection

@@ -1,0 +1,74 @@
+.header_atas {
+	margin-top: -20px;
+	margin-bottom: 20px;
+	font-family: 'Overpass', sans-serif;
+	font-weight: bold;
+}
+hr.style-three {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	background: #999;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.text1{
+	font-family: 'Hepta Slab', serif;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+p.text_header_table{
+	font-family: 'Volkhov', serif;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.text_table{
+	font-family: 'Nanum Gothic', sans-serif;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.text2{
+	font-family: 'Domine', serif;
+}
+.warna_atas{
+	background-color: #4d94ff!important;
+}
+.footer_custom {
+	position: fixed;
+	height: 30px;
+	bottom: 0;
+	width: 100%;
+	background-color: #4d94ff;
+}
+#text_footer{
+	margin-left: 100px;
+	color: white;
+	font-weight: bold;
+	font-family: 'EB Garamond', serif;
+}
+.footer_text{
+	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	color: white;
+}
+th.dt-center, td.dt-center { text-align: center; }
+.text4{
+	font-family: 'Hind', sans-serif;
+	margin-bottom: 0;
+}
+.stripe1 {
+	background-color: #E8E8E8;
+}
+.stripe2 {
+	background-color: #b3d1ff;
+	border-bottom: solid #c0c0c0;
+}
+table.dataTable thead tr {
+	background-color :#4d94ff;
+}table.dataTable tfoot tr {
+	 background-color :#4d94ff;
+ }
+#calendar {
+	max-width: 80%;
+	margin: 0 auto;
+}

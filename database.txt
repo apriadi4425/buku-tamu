@@ -1,0 +1,7 @@
+[
+	{"host_db"	:	"localhost"},
+	{"user_db"	:	"root"},
+	{"pass_db"	:	""},
+	{"db1"		:	"buku_tamu"},
+	{"db2"		:	"sipp"}
+]
