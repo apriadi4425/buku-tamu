@@ -1,7 +1,11 @@
 [
-	{"host_db"	:	"localhost"},
-	{"user_db"	:	"root"},
-	{"pass_db"	:	""},
+	{"host_db1"	:	"localhost"},
+	{"user_db1"	:	"root"},
+	{"pass_db1"	:	""},
 	{"db1"		:	"buku_tamu"},
+
+	{"host_db2"	:	"localhost"},
+	{"user_db2"	:	"root"},
+	{"pass_db2"	:	""},
 	{"db2"		:	"sipp"}
 ]
