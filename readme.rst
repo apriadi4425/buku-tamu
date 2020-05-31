@@ -21,3 +21,9 @@ Spesifikasi Server
 
 1. Harus menggunakan PHP 7.
 2. Memiliki database SIPP.
+
+*******************
+Cara Install
+*******************
+
+Akan segera saya buatkan melalui video youtube
