@@ -34,6 +34,7 @@ class Tambah_data extends Base{
 		$ttd = $this->m_data->get('ttd')->row_object();
 		$data = $this->data();
 		$data['file'] = $ttd->file;
+		$data['tgl'] ='';
 		
 		return view('content/ttd/cek',$data);
 	}
