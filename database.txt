@@ -3,9 +3,10 @@
 	{"user_db1"	:	"root"},
 	{"pass_db1"	:	""},
 	{"db1"		:	"buku_tamu"},
+	{"db2"		:	"sipp"}
 
 	{"host_db2"	:	"localhost"},
 	{"user_db2"	:	"root"},
 	{"pass_db2"	:	""},
-	{"db2"		:	"sipp"}
+	
 ]
